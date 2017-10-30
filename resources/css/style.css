@@ -26,6 +26,10 @@ header{
   font-size:1.5rem;
 }
 
+img.mob, img.phone{
+  display: none;
+
+}
 span.name1{
   font-weight: bold;
   color: black;
@@ -208,6 +212,7 @@ padding-top: 5px;
 
 .learning{
   background-color: rgba(20%, 34.5%, 54.5%, 0.4);
+  height: 51.6rem;
 }
 
 #heading{
@@ -217,4 +222,217 @@ padding-top: 5px;
   font-family: "Source Sans Pro";
   padding-top: 50px;
   padding-bottom:40px;
+}
+
+.line1, .line2{
+  max-width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.line1{
+padding-bottom: 3rem;
+}
+.section, img.grid{
+  width: 22.5rem;
+  background-color: Aliceblue;
+  }
+
+.section h4, .section h6, .section p{
+  padding-left: 16px;
+}
+
+.section h6, .section p{
+  color: Gray;
+}
+.section h4{
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  font-family: "Source Sans Pro";
+}
+.section h6:hover{
+  color: Cornflowerblue;
+  text-decoration: underline;
+  transition: 0.5s ease-in 0.1s;
+}
+
+.section:hover{
+ text-shadow: 2px 2px 4px #A9A9A9;
+}
+
+.section h6{
+  font-family: "Sanchez";
+  padding-bottom: 8px;
+}
+.section p{
+  font-family: "Source Sans Pro";
+  font-weight: 300;
+  padding-bottom: 20px;
+}
+
+.thesis{
+  background-color: #05224B;
+  height: 50rem;
+}
+
+#last{
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Source Sans Pro";
+  padding-top: 50px;
+  padding-bottom:40px;
+  color: white;
+}
+
+.thesis video{
+  padding-left: 2rem;
+}
+
+.grapho{
+  padding-top: 40px;
+}
+.grapho .h{
+ font-size: 1.2rem;
+ font-weight: bold;
+ padding-bottom: 20px;
+}
+.grapho .p{
+  font-size: 1rem;
+  color: #A9A9A9;
+}
+.grapho .now.p{
+  padding-left: 35px;
+}
+
+.under-paragraph{
+  width: 60%;
+}
+.under-paragraph h3{
+  font-size: 2rem;
+  color: white;
+  font-family: "Source Sans Pro";
+  font-weight: bold;
+  padding-left: 2rem;
+  padding-bottom: 1.5rem;
+  padding-top: 24px;
+}
+
+.under-paragraph p{
+  font-size: 1rem;
+  color: #A9A9A9;
+  padding-left: 2rem;
+  font-family: "Sanchez";
+  line-height: 23px;
+}
+
+footer{
+  height: 6rem;
+  border-top: 1px solid gray;
+  background-color: rgba(20%, 34.5%, 54.5%, 0.4);
+  font-family: "Source Sans Pro";
+}
+
+footer p{
+  display: inline-flex;
+    padding-top: 1.3rem;
+}
+
+footer .copyright{
+  padding-left: 24px;
+}
+footer .bottom-nav{
+  text-align: right;
+  padding-right: 15px;
+
+}
+ footer .bottom-nav.term{
+
+ }
+
+ .bot .bottom-nav{
+   float: right;
+ }
+
+@media only screen and (max-width: 460px){
+  .content span, .content nav ul, .image1 img, .writing2, .side-image, .para h6, .para p, .final, .under-paragraph, .bottom-nav{
+    display: none;
+  }
+  img.mob, header img{
+    display: inherit;
+    width: 3rem;
+    }
+img.mob{
+  padding-left: 5rem;
+}
+
+.intro img{
+  width: 100%;
+  padding: 0px;
+  height: auto;
+}
+.intro{
+  padding-top: 58px;
+  height: 36rem;
+}
+
+.intro .right{
+  padding-top: 18rem;
+  width: 100%;
+  padding-left: 0px;
+  display: block;
+}
+
+.inf{
+  height: 20rem;
+  display: block;
+}
+
+.practice{
+  height: 66.5rem;
+}
+img.phone{
+  display: block;
+  width: 380px;
+  height: auto;
+  padding-left: 16px;
+  margin-left: 60px;
+  margin-right: 16px;
+}
+
+.img.phone:hover{
+  text-decoration: underline;
+}
+
+.orientation img.phone{
+  padding-top: 30px;
+}
+.sides h4{
+  padding-top: 20px;
+}
+.sides .or {
+    padding-top: 20px;
+}
+img.grid{
+  display: none;
+}
+.line1, .line2{
+  display: block;
+}
+.section{
+  width: 100%;
+  margin-bottom: 16px;
+}
+.learning{
+  height: 40rem;
+}
+.thesis{
+  height: 20rem;
+}
+.thesis video{
+  width: 100%;
+  padding-left: 0px;
+}
 }
